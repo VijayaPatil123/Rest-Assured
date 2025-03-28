@@ -42,5 +42,9 @@ public class testCookies {
 		
 		
 	}
+	@Test
+	public void test() {
+		System.out.println("Demo Purpose");
+	}
 
 }
