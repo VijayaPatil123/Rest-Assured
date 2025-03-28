@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.APITestUsingBDD">
+      <class name="tests.ValidateJsonResponseData">
         <methods>
-          <include name="getsingleUser"/>
+          <include name="validateJsonResponse"/>
         </methods>
-      </class> <!-- tests.APITestUsingBDD -->
+      </class> <!-- tests.ValidateJsonResponseData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
